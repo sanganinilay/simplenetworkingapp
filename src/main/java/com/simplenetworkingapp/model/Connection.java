@@ -1,3 +1,4 @@
+package com.simplenetworkingapp.model;
 
 
 import java.time.LocalDateTime;
