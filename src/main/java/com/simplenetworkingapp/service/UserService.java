@@ -26,7 +26,7 @@ public class UserService {
         return jdbcTemplate.queryForObject(sql, new UserRowMapper());
     }
 
-    public User getUserById(Long id) {
+    public User getUserById(String id) {
         String sql = "SELECT * FROM users WHERE id = " + id;
         return jdbcTemplate.queryForObject(sql, new UserRowMapper());
     }
